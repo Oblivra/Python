@@ -20,13 +20,21 @@ print("--------------------------------")
 print(f" computer choosed : {computer_value}\n You choosed      : {user_value}")
 print("--------------------------------")
 if user_value not in options:
-    print("Invalid choice! choose between rock/paper/scissors")
+    print("")
+    print("🙄-------Invalid choice!-------🙄")
+    print("")
 else:
     User = options[user_value]                                  #number
 
     if User == computer:
+        print("")
         print("😏😏😏😏😏😏😏😏 It's a tie! 😏😏😏😏😏😏😏😏")
+        print("")
     elif (User == -1 and computer == 1) or (User == 1 and computer == 0) or (User == 0 and computer == -1):
+        print("")
         print("😎😎😎😎😎😎😎😎 You win! 😎😎😎😎😎😎😎😎")
+        print("")
     else:
+        print("")
         print("😢😢😢😢😢😢😢😢 You lose! 😢😢😢😢😢😢😢😢")
+        print("")
