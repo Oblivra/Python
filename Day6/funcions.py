@@ -24,10 +24,29 @@
 
 
 
-def greet(name, ending):
-    print(f"Hello {name}")
-    print(f"{ending}")
-    return 'ok'
+# def greet(name, ending):
+#     print(f"Hello {name}")
+#     print(f"{ending}")
+#     return 'ok'
 
-a = greet("Yorichi", "Thanks!")
-print(a)
+# a = greet("Yorichi", "Thanks!")
+# print(a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+def greet(name, ending="thank you"):
+    print(f"Hello {name}")
+    print(ending)
+
+greet("yorichi","thanks!")
+greet("zenitsu")  # Uses default ending "thank you"
