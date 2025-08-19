@@ -6,4 +6,5 @@ Day3 - Aug 13 2025
 Day4 - Aug 14 2025  
 Day5 - Aug 15 2025  
 Day6 - Aug 16 2025  
-Day7 - Aug 18 2025
+Day7 - Aug 18 2025  
+Day8 - Aug 19 2025
