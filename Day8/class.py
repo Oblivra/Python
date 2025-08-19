@@ -6,4 +6,5 @@ harry = Employee()
 print( harry.salary, harry.language)
 
 rohan = Employee()
-print( rohan.salary, rohan.language)
+rohan.name = "Rohan"
+print( rohan.name , rohan.salary, rohan.language)
